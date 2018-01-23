@@ -71,11 +71,11 @@
 .box-phone {
   border: 1px solid #c7c4c4;
   height: 70px;
-  margin-left: 52px;
-  width: 170px;
+  margin-left: 50px;
+  width: 201px;
 }
 
-#input, #input2 {
+#input, #input2, #input-phone {
   font-size: 12px;
   border: 0;
 }

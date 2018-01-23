@@ -32,13 +32,13 @@
           <div class="col-xs-2 col-xs-offset-1">
             <div class="btn-group">
               <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <img src="http://www.countryflags.io/mx/flat/48.png">
-              <span class="caret"></span>
-              </button>
+<span class="user_selected"><img src="http://www.countryflags.io/mx/flat/48.png"></span>
+      <span class="caret"></span>
+      </button>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="" ><img src="http://www.countryflags.io/co/flat/48.png"></a></li>
-                <li><a href="" ><img src="http://www.countryflags.io/ca/flat/48.png"></a></li>
-                <li><a href="" ><img src="http://www.countryflags.io/us/flat/48.png"></a></li>
+                <li><a href="" data-toggle="tab"><img src="http://www.countryflags.io/co/flat/48.png"></a></li>
+                <li><a href="" data-toggle="tab"><img src="http://www.countryflags.io/ca/flat/48.png"></a></li>
+                <li><a href="" data-toggle="tab"><img src="http://www.countryflags.io/us/flat/48.png"></a></li>
               </ul>
 
             </div>
@@ -46,7 +46,7 @@
           <div class="col-xs-7 col-xs-offset-1 box-phone">
             <div class="input-group">
               <span class="input-group-btn"><button class="btn btn-default" id="input" type="button">52</button></span>
-              <input class="form-control input-lg" id="input" type="text" placeholder="10 digitos">
+              <input class="form-control" id="input-phone" type="text" placeholder="10 digitos">
             </div>
           </div>
         </div>
@@ -54,7 +54,7 @@
       <p class="lead text-center">We´ll send a text to verify your phone</p>
       <div class="row">
         <div class="text-center">
-          <a href="./pag3.html" class="btn btn-default btn-lg active btn-next" role="button">Next</a>
+          <a href="./pag3.html" id="btnNext" class="btn btn-default btn-lg active btn-next" role="button" disabled>Next</a>
         </div>
       </div>
     </section>
