@@ -5,28 +5,34 @@
 
 /* ++++++++++++ Vista Splash +++++++++++*/
 
-#main, #splash>img {
+#main, #splash {
   background-position-x: center;
   background-position-y: center;
 }
 
-#splash>img {
+#splash {
+  background-image: url("../assets/images/inicio-azul.gif");
   width: 100%;
   height: 100vh;
+}
+
+#splash>img {
+  width: 67%;
+  height: 24vh;
+  margin: 67px 75px
 }
 
 /* ++++++++++++ Pantalla Principal +++++++++++*/
 
 #main {
-  background-image: url("../assets/images/lyft4.gif");
+  background-image: url("../assets/images/giphy.gif");
   max-width: 100%;
   height: 100vh;
 }
 
 #main>div>a {
   margin-top: 570px;
-  background-color: #c663c8;
-  color: white;
+  border: 2px solid #5e2070;
 }
 
 /* ++++++++++++ Pagina "2" +++++++++++*/
@@ -65,7 +71,8 @@
 .box-phone {
   border: 1px solid #c7c4c4;
   height: 70px;
-  margin-left: 37px;
+  margin-left: 52px;
+  width: 170px;
 }
 
 #input, #input2 {
@@ -79,8 +86,13 @@ body>section>p {
 
 .btn-next {
   width: 80%;
-  height: 60px;
+  height: 50px;
   margin-top: 50px;
+}
+
+a.btn.btn-default.active {
+  background: #af21a1;
+  color: white;
 }
 
 /* ++++++++++++ Pagina "3" +++++++++++*/
@@ -92,13 +104,15 @@ body>section>p {
 }
 
 /* ++++++++++++ Pagina "5" +++++++++++*/
-#end{
+
+#end {
   width: 100%;
   height: 100vh;
   background: #72237c;
 }
-#end > img{
+
+#end>img {
   width: 82%;
   height: 45vh;
- margin: 32px 35px;
+  margin: 32px 35px;
 }
